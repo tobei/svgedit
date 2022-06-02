@@ -19,7 +19,7 @@
   display: grid;
   grid-template-rows: auto 15px 1fr 40px;
   grid-template-columns: 40px 15px 50px 1fr 15px;
-  grid-template-areas: 
+  grid-template-areas:
     "main main   main top top"
     "left corner rulerX rulerX side"
     "left rulerY workarea workarea side"
@@ -612,4 +612,8 @@ ul li.current {
   width: 24px;
 }
 
-
+/* Seny customizations */
+/* removes unwanted menu items */
+se-menu-item#tool_clear, se-menu-item#tool_save, se-menu-item#tool_editor_homepage, se-menu-item#tool_import, se-menu-item#tool_export, se-menu-item#tool_docprops, se-menu-item#tool_editor_prefs {
+  display: none;
+}

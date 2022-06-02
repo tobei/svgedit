@@ -36,7 +36,7 @@ const svgEditor = new Editor(document.getElementById('container'))
 svgEditor.init()
 svgEditor.setConfig({
           allowInitialUserOverride: true,
-          extensions: [],
+          extensions: ['ext-serversave'],
           noDefaultExtensions: false,
           userExtensions: [/* { pathName: './react-extensions/react-test/dist/react-test.js' } */]
         })
